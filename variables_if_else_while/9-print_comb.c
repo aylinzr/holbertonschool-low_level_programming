@@ -9,7 +9,7 @@ int main(void)
 {
 	int n;
 
-	for (n = 48; n < 58; n++)  /* 48 = '0' et 58 = '9' + 1 en ASCII */
+	for (n = 48; n < 57; n++)  /* 48 = '0' et 57 = '9'en ASCII */
 	putchar(n);
 	if (n != 57)
 	{
