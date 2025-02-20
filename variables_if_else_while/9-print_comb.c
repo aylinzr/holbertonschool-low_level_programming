@@ -1,23 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - Affiche toutes les combinaisons possibles de chiffres uniques (0-9)
+ * main - Point d'entrée du programme
+ *
  * Return: Toujours 0 (Succès)
  */
 
 int main(void)
 {
-	int n;
+	int num;
 
-	for (n = 48; n < 57; n++)  /* 48 = '0' et 57 = '9'en ASCII */
-	putchar(n);
-	if (n != 57)
+	for (num = 0; num <= 9; num++)
 	{
+		putchar((num % 10) + '0');
+		if (num == 9)
 		{
-			putchar(',');
-			putchar(' ');
+		continue;
 		}
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
+
 	return (0);
 }
