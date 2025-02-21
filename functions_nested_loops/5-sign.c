@@ -2,8 +2,9 @@
 
 /**
  * print_sign - Affiche le signe d'un nombre
- * @c: Le caractère à vérifi
- * Return: 1 si c est une minuscule, 0 sinon
+ * @n: Le nombre dont le signe doit être affich
+ * Return: 1 si n est positif, 0 si n est égal à 0,
+ *         -1 si n est négatif
  */
 
 int print_sign(int n)
