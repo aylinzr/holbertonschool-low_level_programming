@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * main - Point d'entrée du programme
- * Affiche "_putchar" suivi d'une nouvelle ligne.
- * Return: Toujours 0 (Succès)
+ * print_alphabet - Affiche l'alphabet en minuscules suivi d'une nouvelle ligne
+ * Description: Cette fonction utilise `_putchar` pour afficher
+ * chaque lettre de l'alphabet en minuscule, puis une nouvelle ligne.
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
+
 {
 	char c;
 
