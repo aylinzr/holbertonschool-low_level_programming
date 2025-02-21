@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * main - Point d'entrée du programme*
+ * Return: Toujours 0 (Succès)
  */
-
 int main(void)
 {
     print_alphabet_x10();
