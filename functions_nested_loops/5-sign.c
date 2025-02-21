@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - signe de contrôl
+ * print_sign - Affiche le signe d'un nombre
  * @c: Le caractère à vérifi
  * Return: 1 si c est une minuscule, 0 sinon
  */
