@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Affiche les 50 premiers nombres de Fibonacci, en commençant par 1 et 2,
+ * main - Affiche les 50 premiers nombres de Fibonacci,
+ * en commençant par 1 et 2,
  *        séparés par une virgule suivie d'un espac
  * Return: Toujours 0.
  */
